@@ -1,0 +1,5 @@
+#!/bin/sh
+gcc -g -m32 -fno-stack-protector -c tucksay.c  -o tsay.o
+gcc -g -m32 -fno-stack-protector -c exploit2.c  -o e2.o
+gcc -g -m32 tsay.o e2.o -o tsay2
+echo "Done"
