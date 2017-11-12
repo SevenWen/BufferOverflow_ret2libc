@@ -22,6 +22,7 @@ int vuln(char* str)
 	char i=0;
 	char buffer[20];
 	strcpy(buffer,str);
+	retrun(0);
 }
 
 int main(int argc,char *argv[])
